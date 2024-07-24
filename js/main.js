@@ -4,10 +4,10 @@ let root=document.querySelector("#root");
 let div_formularios=document.createElement("div");
 div_formularios.className="div_formularios";
 
-let formularios=[{nombre:"login",link:"https"},
-    {nombre:"login",link:"https"},
-    {nombre:"login",link:"https"},
-    {nombre:"login",link:"https"}];
+let formularios=[{nombre:"login",link:"componenntes/login/login.html"},
+    {nombre:"login",link:"#"},
+    {nombre:"login",link:"#"},
+    {nombre:"login",link:"#"}];
 formularios.forEach(itemlista =>{
     alert("hola")
 
