@@ -4,10 +4,12 @@ let root=document.querySelector("#root");
 let div_formularios=document.createElement("div");
 div_formularios.className="div_formularios";
 
-let formularios=[{nombre:"login",link:"componenntes/login/login.html"},
-    {nombre:"login",link:"#"},
-    {nombre:"login",link:"#"},
-    {nombre:"login",link:"#"}];
+let formularios=[{nombre:"login",link:"componentes/login/login.html"},
+    {nombre:"formulario De busqueda",link:"componentes/formularioDEbusqueda/busqueda.html"},
+    {nombre:"formulario de reseñas",link:"componentes/formularioDeComentariosReseñas/reseñas.html"},
+    {nombre:"formulario de contacto",link:"componentes/formularioDecontacto/contacto.html"},
+    {nombre:"formulario de pedidoscompras",link:"componentes/formularioDepedidocompras/pedidos.html"},
+    {nombre:"formulario de registropedidos",link:"componentes/formularioDeregistro/registro.html"}];
 formularios.forEach(itemlista =>{
     alert("hola")
 
