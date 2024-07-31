@@ -1,7 +1,7 @@
 #root{
     width: 100%;
  display: flex;
- justify-content: center;
+ justify-content: center;  
  height: 300px;
 }
 .div_formularios{
